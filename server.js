@@ -6,7 +6,7 @@ const signinRoutes = require('./signin');
 const homeRoutes = require('./home');
 
 const app = express();
-const port = 8080;
+
 
 app.use(cors());
 app.use(express.json());
